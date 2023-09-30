@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:written_book"
+		},
+		"title": {"translate":"Call the police"},
+		"description": {"color":"dark_purple","translate":"Police added to contacts (as \'911\')"},
+		"announce_to_chat": "false",
+		"hidden": "true",
+		"frame": "task"
+	},
+	"parent": "phone:contacts",
+	"rewards": {
+		"function": "phone:update_contacts"
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

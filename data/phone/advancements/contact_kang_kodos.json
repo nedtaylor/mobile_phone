@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:written_book"
+		},
+		"title": {"translate":"Call Kang & Kodos"},
+		"description": {"color":"dark_purple","translate":"Kang & Kodos added to contacts as \'Aliens\'"},
+		"announce_to_chat": "false",
+		"hidden": "true",
+		"frame": "task"
+	},
+	"parent": "phone:contacts",
+	"rewards": {
+		"function": "phone:update_contacts"
+	},	
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

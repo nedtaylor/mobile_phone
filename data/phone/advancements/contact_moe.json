@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:written_book"
+		},
+		"title": {"translate":"Call Moe"},
+		"description": {"color":"dark_purple","translate":"Moe's Tavern added to contacts"},
+		"announce_to_chat": "false",
+		"hidden": "true",
+		"frame": "task"
+	},
+	"parent": "phone:contacts",
+	"rewards": {
+		"function": "phone:update_contacts"
+	},	
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:written_book"
+		},
+		"title": {"translate":"Call home"},
+		"description": {"color":"dark_purple","translate":"Home added to contacts"},
+		"announce_to_chat": "false",
+		"hidden": "true",
+		"frame": "task"
+	},
+	"parent": "phone:contacts",
+	"rewards": {
+		"function": "phone:update_contacts"
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

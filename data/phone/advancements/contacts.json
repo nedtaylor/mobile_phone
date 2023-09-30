@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:written_book"
+		},
+		"title": {"translate":"Known Contacts"},
+		"description": {"color":"dark_purple","translate":"Contacts on speed dial"},
+		"announce_to_chat": "false",
+		"hidden": "true",
+		"frame": "goal"
+	},
+	"parent": "phone:root",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

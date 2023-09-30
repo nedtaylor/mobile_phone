@@ -1,0 +1,38 @@
+[
+   {
+      "function": "set_name",
+      "name": "crazy!"
+   },
+   {
+      "function": "set_nbt",
+      "tag": "{author: dragon}"
+   },
+   {
+      "function": "copy_nbt",
+      "source": {
+            "type": "minecraft:storage",
+            "source": "minecraft:test_storage"
+      },    
+      "ops": [
+            {
+               "source": "title",
+               "target": "title",
+               "op": "replace"
+            }
+      ]
+   },
+   {
+      "function": "copy_nbt",
+      "source": {
+          "type": "minecraft:storage",
+          "source": "minecraft:test_storage"
+      },    
+      "ops": [
+          {
+              "source": "new_page",
+              "target": "pages",
+              "op": "append"
+          }
+      ]
+  }
+]

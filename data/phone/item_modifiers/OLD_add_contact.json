@@ -1,0 +1,14 @@
+{
+    "function": "copy_nbt",
+    "source": {
+        "type": "minecraft:storage",
+        "source": "phone:contacts_page"
+    },    
+    "ops": [
+        {
+            "source": "contacts",
+            "target": "pages[1]",
+            "op": "replace"
+        }
+    ]
+}

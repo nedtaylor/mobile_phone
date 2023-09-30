@@ -1,0 +1,40 @@
+[
+   {
+      "function": "copy_nbt",
+      "source": {
+          "type": "minecraft:storage",
+          "source": "phone:data"
+      },    
+      "ops": [
+          {
+              "source": "serial_number",
+              "target": "serial_number",
+              "op": "replace"
+          },
+          {
+            "source": "initial_boot_time",
+            "target": "initial_boot_time",
+            "op": "replace"
+          },
+          {
+            "source": "runtime",
+            "target": "runtime",
+            "op": "replace"
+          }
+      ]
+  },
+  {
+     "function": "copy_nbt",
+     "source": {
+         "type": "minecraft:storage",
+         "source": "contacts:page"
+     },    
+     "ops": [
+         {
+             "source": "contents",
+             "target": "pages[2]",
+             "op": "replace"
+         }
+     ]
+ }
+]

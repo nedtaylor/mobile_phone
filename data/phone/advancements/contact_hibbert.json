@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:written_book"
+		},
+		"title": {"translate":"Call Dr. Hibbert"},
+		"description": {"color":"dark_purple","translate":"Dr. Hibbert added to contacts (as \'Hibbert\')"},
+		"announce_to_chat": "false",
+		"hidden": "true",
+		"frame": "task"
+	},
+	"parent": "phone:contacts",
+	"rewards": {
+		"function": "phone:update_contacts"
+	},	
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

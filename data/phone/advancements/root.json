@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:written_book"
+      },
+		"title": "Mobile Phone",
+		"frame": "challenge",
+		"description": ["",{"text":"The Mobile Phone data pack\n","color":"gold"},{"text":"nedanator","color":"yellow"}],
+		"background": "minecraft:textures/block/black_concrete.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
