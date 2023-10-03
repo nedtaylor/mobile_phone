@@ -1,5 +1,3 @@
-tellraw @a "received"
-
 # get selected slot
 data modify storage taxi:data common_id set from entity @s SelectedItemSlot
 scoreboard objectives add taxi_tmp dummy
