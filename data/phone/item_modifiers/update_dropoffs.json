@@ -1,0 +1,16 @@
+[
+   {
+      "function": "copy_nbt",
+      "source": {
+          "type": "minecraft:storage",
+          "source": "phone:taxi_page"
+      },    
+      "ops": [
+          {
+              "source": "contents",
+              "target": "pages[3]",
+              "op": "replace"
+          }
+      ]
+  }
+]

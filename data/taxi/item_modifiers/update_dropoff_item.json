@@ -1,0 +1,16 @@
+[
+   {
+      "function": "copy_nbt",
+      "source": {
+          "type": "minecraft:storage",
+          "source": "taxi:data"
+      },    
+      "ops": [
+          {
+              "source": "common_json",
+              "target": "display",
+              "op": "replace"
+          }
+      ]
+  }
+]
