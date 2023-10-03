@@ -39,3 +39,4 @@ $item replace entity @s container.32 from block $(x2) $(y2) $(z2) container.5
 $item replace entity @s container.33 from block $(x2) $(y2) $(z2) container.6
 $item replace entity @s container.34 from block $(x2) $(y2) $(z2) container.7
 $item replace entity @s container.35 from block $(x2) $(y2) $(z2) container.8
+$item replace entity @s weapon.offhand from block $(x2) $(y2) $(z2) container.9
