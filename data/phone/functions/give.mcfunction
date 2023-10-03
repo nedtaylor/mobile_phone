@@ -71,25 +71,25 @@ give @s written_book{pages:[\
          {"text":"Hit & Run","bold":true,"underlined":true,"italic":true, "extra":[{"text":" Taxis","italic":false}]},\
          {"text":"\\n\\n"},\
          "  ",{"text":"Common dropoffs","bold":true,"underlined":true},{"text":"\\n\\n     ","color":"reset"},\
-         {"text":"\\u2460","clickEvent":{"action":"run_command","value":"/execute in minecraft:overworld run tp @s -1069.47 46.50 44.17 180.02 -39.15"},"hoverEvent":{"action":"show_text","contents":"Moe\'s Tavern"}},\
+         {"text":"\\u2460","clickEvent":{"action":"run_command","value":"/tellraw @s {\\"text\\":\\"No location set\\",\\"color\\":\\"red\\"}"},"hoverEvent":{"action":"show_text","contents":{"text":"Unset","color":"red"}}},\
          {"text":"     "},\
-         {"text":"\\u2461","clickEvent":{"action":"run_command","value":"/execute in minecraft:overworld run tp @s -401.60 46.50 262.50 245.72 -3.75"},"hoverEvent":{"action":"show_text","contents":"Home (742 Evergreen Terrace)"}},\
+         {"text":"\\u2461","clickEvent":{"action":"run_command","value":"/tellraw @s {\\"text\\":\\"No location set\\",\\"color\\":\\"red\\"}"},"hoverEvent":{"action":"show_text","contents":{"text":"Unset","color":"red"}}},\
          {"text":"     "},\
-         {"text":"\\u2462","clickEvent":{"action":"run_command","value":"/execute in minecraft:overworld run tp @s -481.41 46.50 137.11 122.57 -3.00"},"hoverEvent":{"action":"show_text","contents":"Krusty Burger"}},\
+         {"text":"\\u2462","clickEvent":{"action":"run_command","value":"/tellraw @s {\\"text\\":\\"No location set\\",\\"color\\":\\"red\\"}"},"hoverEvent":{"action":"show_text","contents":{"text":"Unset","color":"red"}}},\
          {"text":"\\n\\n     "},\
-         {"text":"\\u2463","clickEvent":{"action":"run_command","value":"/execute in minecraft:overworld run tp @s -628.09 46.50 -276.44 -118.63 1.80"},"hoverEvent":{"action":"show_text","contents":"Work (Nuclear Power Plant)"}},\
+         {"text":"\\u2463","clickEvent":{"action":"run_command","value":"/tellraw @s {\\"text\\":\\"No location set\\",\\"color\\":\\"red\\"}"},"hoverEvent":{"action":"show_text","contents":{"text":"Unset","color":"red"}}},\
          {"text":"     "},\
-         {"text":"\\u2464","clickEvent":{"action":"run_command","value":"/execute in minecraft:overworld run tp @s -683.49 46.06 508.32 238.52 5.70"},"hoverEvent":{"action":"show_text","contents":"Airport"}},\
+         {"text":"\\u2464","clickEvent":{"action":"run_command","value":"/tellraw @s {\\"text\\":\\"No location set\\",\\"color\\":\\"red\\"}"},"hoverEvent":{"action":"show_text","contents":{"text":"Unset","color":"red"}}},\
          {"text":"     "},\
-         {"text":"\\u2465","clickEvent":{"action":"run_command","value":"/execute in minecraft:overworld run tp @s -547.58 46.50 269.33 89.42 -17.10"},"hoverEvent":{"action":"show_text","contents":"Springfield Elementary School"}},\
+         {"text":"\\u2465","clickEvent":{"action":"run_command","value":"/tellraw @s {\\"text\\":\\"No location set\\",\\"color\\":\\"red\\"}"},"hoverEvent":{"action":"show_text","contents":{"text":"Unset","color":"red"}}},\
          {"text":"\\n\\n     "},\
-         {"text":"\\u2466","clickEvent":{"action":"run_command","value":"/execute in minecraft:overworld run tp @s -978.28 46.50 853.54 360.32 -23.85"},"hoverEvent":{"action":"show_text","contents":"Mall"}},\
+         {"text":"\\u2466","clickEvent":{"action":"run_command","value":"/tellraw @s {\\"text\\":\\"No location set\\",\\"color\\":\\"red\\"}"},"hoverEvent":{"action":"show_text","contents":{"text":"Unset","color":"red"}}},\
          {"text":"     "},\
-         {"text":"\\u2467","clickEvent":{"action":"run_command","value":"/execute in minecraft:overworld run tp @s -1231.31 52.00 427.19 44.87 -16.65"},"hoverEvent":{"action":"show_text","contents":"General Hospital"}},\
+         {"text":"\\u2467","clickEvent":{"action":"run_command","value":"/tellraw @s {\\"text\\":\\"No location set\\",\\"color\\":\\"red\\"}"},"hoverEvent":{"action":"show_text","contents":{"text":"Unset","color":"red"}}},\
          {"text":"     "},\
-         {"text":"\\u2468","clickEvent":{"action":"run_command","value":"/execute in minecraft:overworld run tp @s -842.92 47.00 14.18 90.02 -28.95"},"hoverEvent":{"action":"show_text","contents":"Aztec Theatre"}},\
+         {"text":"\\u2468","clickEvent":{"action":"run_command","value":"/tellraw @s {\\"text\\":\\"No location set\\",\\"color\\":\\"red\\"}"},"hoverEvent":{"action":"show_text","contents":{"text":"Unset","color":"red"}}},\
          {"text":"\\n\\n\\n        "},\
-         {"text":"Open Map","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/tp @p -826 26 96 -90 0"},"hoverEvent":{"action":"show_text","contents":"Open interactive map"}}\
+         {"text":"Open Map","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/function taxi:open_map"},"hoverEvent":{"action":"show_text","contents":"Open interactive map"}}\
       ]',\
       '["",\
          {"text":"×","bold":true,"clickEvent":{"action":"change_page","value":1},"hoverEvent":{"action":"show_text","contents":"Home Screen"}}," ",\
@@ -134,6 +134,7 @@ execute as @s run function phone:build with storage phone:data
 
 
 
+# {"text":"\\u2460","clickEvent":{"action":"run_command","value":"/execute in minecraft:overworld run tp @s -1069.47 46.50 44.17 180.02 -39.15"},"hoverEvent":{"action":"show_text","contents":"Moe\'s Tavern"}},\
 # {"text":"                          "},\
 
 # ̧_̧_̧  ╔═╗
