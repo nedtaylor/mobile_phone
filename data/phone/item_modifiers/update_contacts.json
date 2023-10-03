@@ -3,7 +3,7 @@
       "function": "copy_nbt",
       "source": {
           "type": "minecraft:storage",
-          "source": "contacts:page"
+          "source": "phone:contacts_page"
       },    
       "ops": [
           {

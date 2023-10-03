@@ -27,8 +27,8 @@
      "function": "copy_nbt",
      "source": {
          "type": "minecraft:storage",
-         "source": "contacts:page"
-     },    
+         "source": "phone:contacts_page"
+     },
      "ops": [
          {
              "source": "contents",
@@ -36,5 +36,19 @@
              "op": "replace"
          }
      ]
- }
+  },
+  {
+    "function": "copy_nbt",
+    "source": {
+        "type": "minecraft:storage",
+        "source": "phone:taxi_page"
+    },
+    "ops": [
+        {
+            "source": "contents",
+            "target": "pages[3]",
+            "op": "replace"
+        }
+    ]
+   }
 ]
