@@ -1,7 +1,7 @@
 {
     "values": [
-        "constants:load",
         "dial:load",
-        "phone:load"
+        "phone:load",
+        "taxi:load"
     ]
 }

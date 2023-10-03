@@ -1,5 +1,6 @@
 {
     "values": [
-        "dial:tick"
+        "dial:tick",
+        "taxi:tick"
     ]
 }
