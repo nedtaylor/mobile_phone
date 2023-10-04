@@ -3,9 +3,9 @@ tag @s remove taxi
 
 # player inventory is cleared and returned
 clear @s
-execute as @s run function misc:replace_inventory {x1:-836, y1:27, z1:94, x2:-836, y2:26, z2:94}
-data modify block -836 27 94 Items set value ""
-data modify block -836 26 94 Items set value ""
+execute as @s run function misc:replace_inventory {x1:-837, y1:40, z1:94, x2:-836, y2:40, z2:94}
+data modify block -837 40 94 Items set value ""
+data modify block -836 40 94 Items set value ""
 
 # 'set_dropoff' scoreboard objective removed
 scoreboard objectives remove set_dropoff
