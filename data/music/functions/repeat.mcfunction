@@ -16,7 +16,7 @@ data modify storage music:data repeat_hover set value "Repeat All"
 data modify storage music:data repeat_symbol set value "🔁"
 
 # if repeat all/one, set repeat button to green
-execute as @s[scores={repeat=1..}] run data modify storage music:data repeat_color set value "green"
+execute as @s[scores={repeat=1..}] run data modify storage music:data repeat_color set value "dark_green"
 
 # if repeat all, update button accordingly
 execute as @s[scores={repeat=1}] run tag @s add repeat_all

@@ -12,7 +12,7 @@ data modify storage music:data shuffle_color set value "black"
 
 # if shuffle is on, update shuffle button
 execute as @s[scores={shuffle=1}] run tag @s add shuffle
-execute as @s[scores={shuffle=1}] run data modify storage music:data shuffle_color set value "green"
+execute as @s[scores={shuffle=1}] run data modify storage music:data shuffle_color set value "dark_green"
 execute as @s[scores={shuffle=1}] run data modify storage music:data shuffle_hover set value "Disable Shuffle"
 
 # update the music page of player phone
