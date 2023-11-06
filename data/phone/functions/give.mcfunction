@@ -9,21 +9,21 @@ give @s written_book{pages:[\
          {"text":"    "},\
          {"text":"☑Ξ","bold":false,"color":"blue","clickEvent":{"action":"change_page","value":5}, "hoverEvent":{"action":"show_text","contents":"Objectives"}},\
          {"text":"\\n\\n  "},\
-         {"text":"|⚙🔧|","bold":true,"color":"dark_gray","clickEvent":{"action":"change_page","value":6}, "hoverEvent":{"action":"show_text","contents":"Settings"}},\
+         {"text":"|⚙🔧|","bold":true,"color":"dark_gray","clickEvent":{"action":"change_page","value":7}, "hoverEvent":{"action":"show_text","contents":"Settings"}},\
          {"text":"    "},\
-         {"text":"ǁ.⌚.ǁ","bold":false,"color":"black","clickEvent":{"action":"change_page","value":6}, "hoverEvent":{"action":"show_text","contents":"Clock"}},\
+         {"text":"ǁ.⌚.ǁ","bold":false,"color":"black","clickEvent":{"action":"change_page","value":7}, "hoverEvent":{"action":"show_text","contents":"Clock"}},\
          {"text":"\\n\\n\\n\\n\\n\\n\\n\\n\\n "},\
          {"text":"╔═╗","color":"dark_green","clickEvent":{"action":"change_page","value":2}, "hoverEvent":{"action":"show_text","contents":"Phone"}},\
          {"text":"     "},\
-         {"text":".__.","color":"blue","bold":true,"clickEvent":{"action":"change_page","value":2}, "hoverEvent":{"action":"show_text","contents":"Mail"}},\
+         {"text":".__.","color":"blue","bold":true,"clickEvent":{"action":"change_page","value":7}, "hoverEvent":{"action":"show_text","contents":"Mail"}},\
          {"text":"      "},\
-         {"text":"__","color":"red","clickEvent":{"action":"change_page","value":2}, "hoverEvent":{"action":"show_text","contents":"Music"}},\
+         {"text":"__","color":"red","clickEvent":{"action":"change_page","value":6}, "hoverEvent":{"action":"show_text","contents":"Music"}},\
          {"text":"\\n "},\
          {"text":".‵ǁ⑨ǁ՛","color":"dark_green","clickEvent":{"action":"change_page","value":2}, "hoverEvent":{"action":"show_text","contents":"Phone"}},\
          {"text":"     "},\
-         {"text":"|≥≤|","color":"blue","bold":true,"clickEvent":{"action":"change_page","value":2}, "hoverEvent":{"action":"show_text","contents":"Mail"}},\
+         {"text":"|≥≤|","color":"blue","bold":true,"clickEvent":{"action":"change_page","value":7}, "hoverEvent":{"action":"show_text","contents":"Mail"}},\
          {"text":"      "},\
-         {"text":"|♫|","color":"red","clickEvent":{"action":"change_page","value":2}, "hoverEvent":{"action":"show_text","contents":"Music"}}\
+         {"text":"|♫|","color":"red","clickEvent":{"action":"change_page","value":6}, "hoverEvent":{"action":"show_text","contents":"Music"}}\
       ]',\
       '["",\
          {"text":"×","bold":true,"clickEvent":{"action":"change_page","value":1},"hoverEvent":{"action":"show_text","contents":"Home Screen"}}," ",\
@@ -99,7 +99,21 @@ give @s written_book{pages:[\
       ]',\
       '["",\
          {"text":"×","bold":true,"clickEvent":{"action":"change_page","value":1},"hoverEvent":{"action":"show_text","contents":"Home Screen"}}," ",\
-         {"text":"Settings:","bold":true,"underlined":true},\
+         {"text":"Music:","bold":true,"underlined":true},\
+         {"text":"\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n"},\
+         "     ",\
+         {"text":"🔀","bold":false,"clickEvent":{"action":"run_command","value":"/execute as @s run function music:shuffle"}, "hoverEvent":{"action":"show_text","contents":"Shuffle"}},"   ",\
+         {"text":"⏮","bold":false,"clickEvent":{"action":"run_command","value":"/execute as @s run function music:previous_song"}, "hoverEvent":{"action":"show_text","contents":"Previous"}},"  ",\
+         {"text":"⏯","bold":false,"clickEvent":{"action":"run_command","value":"/execute as @s run function music:play_pause"}, "hoverEvent":{"action":"show_text","contents":"Play/Pause music"}},"  ",\
+         {"text":"⏭","bold":false,"clickEvent":{"action":"run_command","value":"/execute as @s run function music:next_song"}, "hoverEvent":{"action":"show_text","contents":"Next"}},"   ",\
+         {"text":"🔁","bold":false,"clickEvent":{"action":"run_command","value":"/execute as @s run function music:repeat"}, "hoverEvent":{"action":"show_text","contents":"Repeat"}},\
+         {"text":"\\n"},\
+         {"text":"            "},{"text":" ⃞","bold":true,"clickEvent":{"action":"change_page","value":1}, "hoverEvent":{"action":"show_text","contents":"Home Screen"}}\
+      ]',\
+      '["",\
+         {"text":"×","bold":true,"clickEvent":{"action":"change_page","value":1},"hoverEvent":{"action":"show_text","contents":"Home Screen"}}," ",\
+         {"text":"Settings:","bold":true,"underlined":true},"          ",\
+         {"text":"🔄","bold":true,"clickEvent":{"action":"run_command","value":"/execute as @s run function phone:update with storage phone:data"},"hoverEvent":{"action":"show_text","contents":"Restart"}},\
          {"text":"\\n\\n"},\
          {"text":"Daytime","bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/time set day"}},\
          {"text":"\\n\\n"},\
