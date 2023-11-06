@@ -1,5 +1,3 @@
-tellraw @a "playing previous song"
-
 # if at start and not on repeat_all, stop listening to music and return
 execute as @s[tag=!repeat_all,tag=!repeat_one,scores={play_list_idx=0}] run function music:stop
 execute as @s[tag=!listening_to_music] run return 0
@@ -20,6 +18,7 @@ execute as @s[tag=!repeat_one,tag=shuffle] if score @s play_list_idx matches 0 r
 execute as @s[tag=!repeat_one,tag=shuffle] run data remove storage music:data rnd_idx
 execute as @s[tag=!repeat_one,tag=shuffle] if score @s play_list_idx matches 0 run scoreboard players add @s songs_played 1
 
+# if shuffle, get previously played song
 execute as @s[tag=shuffle] run function music:get_previous_shuffle with storage music:data
 
 # play previous song
