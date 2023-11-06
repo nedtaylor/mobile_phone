@@ -57,7 +57,7 @@ give @s written_book{pages:[\
          {"text":"\\n\\n\\u2006\\u2006\\u2006          "},\
          {"text":"[","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/function dial:dial"}},\
          {"text":"\\u2006  "},\
-         {"text":"<","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function dial:del_digit"}},\
+         {"text":"\\uFE17","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function dial:del_digit"}},\
          {"text":"\\n\\n"},\
          {"text":"            "},{"text":" ⃞","bold":true,"clickEvent":{"action":"change_page","value":1}, "hoverEvent":{"action":"show_text","contents":"Home Screen"}}\
       ]',\
@@ -101,14 +101,14 @@ give @s written_book{pages:[\
          {"text":"×","bold":true,"clickEvent":{"action":"change_page","value":1},"hoverEvent":{"action":"show_text","contents":"Home Screen"}}," ",\
          {"text":"Music:","bold":true,"underlined":true},\
          {"text":"\\n\\n\\n\\n\\n\\n\\n\\n\\n"},\
-         ".             ",\
+         "\\u2006\\u2006           ",\
          {"text":"⏹","bold":false,"color":"red","clickEvent":{"action":"run_command","value":"/execute as @s run function music:stop"}, "hoverEvent":{"action":"show_text","contents":"Stop"}},\
          {"text":"\\n\\n"},\
-         {"text":"\\u2006 "},\
-         {"text":"🔀","bold":false,"clickEvent":{"action":"run_command","value":"/execute as @s run function music:shuffle"}, "hoverEvent":{"action":"show_text","contents":"Shuffle"}},"    ",\
-         {"text":"⏮","bold":false,"clickEvent":{"action":"run_command","value":"/execute as @s run function music:previous_song with storage music:data"}, "hoverEvent":{"action":"show_text","contents":"Previous"}},"   ",\
-         {"text":"⏯","bold":false,"clickEvent":{"action":"run_command","value":"/execute as @s run function music:play_pause"}, "hoverEvent":{"action":"show_text","contents":"Play/Pause music"}},"   ",\
-         {"text":"⏭","bold":false,"clickEvent":{"action":"run_command","value":"/execute as @s run function music:next_song with storage music:data"}, "hoverEvent":{"action":"show_text","contents":"Next"}},"    ",\
+         {"text":"\\u2006\\u2006"},\
+         {"text":"🔀","bold":false,"clickEvent":{"action":"run_command","value":"/execute as @s run function music:shuffle"}, "hoverEvent":{"action":"show_text","contents":"Shuffle"}},"\\u2006\\u2006 ",\
+         {"text":"⏮","bold":false,"clickEvent":{"action":"run_command","value":"/execute as @s run function music:previous_song with storage music:data"}, "hoverEvent":{"action":"show_text","contents":"Previous"}},"\\u2006\\u2006\\u2006",\
+         {"text":"⏯","bold":false,"clickEvent":{"action":"run_command","value":"/execute as @s run function music:play_pause"}, "hoverEvent":{"action":"show_text","contents":"Play/Pause music"}},"\\u2006\\u2006\\u2006",\
+         {"text":"⏭","bold":false,"clickEvent":{"action":"run_command","value":"/execute as @s run function music:next_song with storage music:data"}, "hoverEvent":{"action":"show_text","contents":"Next"}},"\\u2006\\u2006 ",\
          {"text":"🔁","bold":false,"clickEvent":{"action":"run_command","value":"/execute as @s run function music:repeat"}, "hoverEvent":{"action":"show_text","contents":"Repeat"}},\
          {"text":"\\n\\n"},\
          {"text":"            "},{"text":" ⃞","bold":true,"clickEvent":{"action":"change_page","value":1}, "hoverEvent":{"action":"show_text","contents":"Home Screen"}}\
