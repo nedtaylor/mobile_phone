@@ -29,7 +29,7 @@ give @s written_book{pages:[\
          {"text":"×","bold":true,"clickEvent":{"action":"change_page","value":1},"hoverEvent":{"action":"show_text","contents":"Home Screen"}}," ",\
          {"text":"Phone:","bold":true,"underlined":true},\
          {"text":"\\n                          "},\
-         {"text":"\\u2681","color":"green","clickEvent":{"action":"run_command","value":"/function dial:open_keypad"}},\
+         {"text":"\\u2681","color":"green","clickEvent":{"action":"run_command","value":"/function dial:open_keypad"}, "hoverEvent":{"action":"show_text","contents":"Expand Keypad"}},\
          {"text":"\\n\\n         "},\
          {"text":"1","color":"dark_green","clickEvent":{"action":"run_command","value":"/function dial:click_1"}},\
          {"text":"   "},\
@@ -55,9 +55,9 @@ give @s written_book{pages:[\
          {"text":"   "},\
          {"text":"#"},\
          {"text":"\\n\\n\\u2006\\u2006\\u2006          "},\
-         {"text":"[","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/function dial:dial"}},\
+         {"text":"[","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/function dial:dial"}, "hoverEvent":{"action":"show_text","contents":"Dial"}},\
          {"text":"\\u2006  "},\
-         {"text":"\\uFE17","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function dial:del_digit"}},\
+         {"text":"\\uFE17","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function dial:del_digit"}, "hoverEvent":{"action":"show_text","contents":"Hang Up"}},\
          {"text":"\\n\\n"},\
          {"text":"            "},{"text":" ⃞","bold":true,"clickEvent":{"action":"change_page","value":1}, "hoverEvent":{"action":"show_text","contents":"Home Screen"}}\
       ]',\
