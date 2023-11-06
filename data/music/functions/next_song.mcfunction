@@ -17,7 +17,7 @@ $execute as @s[tag=!repeat_one,tag=shuffle] store result storage music:data song
 execute as @s[tag=!repeat_one,tag=!shuffle] store result storage music:data song_idx int 1 run scoreboard players add @s song_idx 1
 
 # play song
-execute if score @s song_idx <= music:data number_of_songs as @s run function music:play_song with storage music:data
+execute as @s if score @s song_idx <= music:data number_of_songs run function music:play_song with storage music:data
 
 # stop music if not repeating all songs
 execute as @s[tag=!repeat_all] if score @s song_idx > music:data number_of_songs as @s run function music:stop
