@@ -1,6 +1,7 @@
 {
     "values": [
         "dial:tick",
+        "music:tick",
         "taxi:tick"
     ]
 }

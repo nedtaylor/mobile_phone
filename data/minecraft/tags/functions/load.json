@@ -1,6 +1,7 @@
 {
     "values": [
         "dial:load",
+        "music:load",
         "phone:load",
         "taxi:load"
     ]
