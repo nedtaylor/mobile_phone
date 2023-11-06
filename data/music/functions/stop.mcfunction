@@ -13,3 +13,9 @@ data remove storage music:data play_list
 data remove storage music:data play_list_idx
 
 tag @s remove listening_to_music
+
+data modify storage music:data play_pause_symbol set value "⏵"
+data modify storage music:data play_pause_hover set value "Play"
+
+# update the music page of player phone
+function phone:update_music with storage music:data

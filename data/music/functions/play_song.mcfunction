@@ -1,7 +1,7 @@
 stopsound @s music
 scoreboard players reset @s song_time
 
-$tellraw @s "Now playing...$(song_idx)"
+tellraw @s "Now playing..."
 
 tag @s add listening_to_music
 

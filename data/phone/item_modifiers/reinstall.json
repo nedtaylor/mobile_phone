@@ -26,5 +26,19 @@
             "op": "replace"
         }
     ]
-   }
+   },
+   {
+      "function": "copy_nbt",
+      "source": {
+          "type": "minecraft:storage",
+          "source": "phone:music_page"
+      },
+      "ops": [
+          {
+              "source": "contents",
+              "target": "pages[5]",
+              "op": "replace"
+          }
+      ]
+  }
 ]

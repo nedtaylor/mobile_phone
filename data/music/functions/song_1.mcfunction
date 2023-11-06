@@ -1,6 +1,6 @@
 playsound minecraft:music_disc.blocks music @s ~ ~ ~ 1 1 1
 
-tellraw @a "playing song 1"
+tellraw @a "Song 1"
 
 data modify storage music:data duration set value 100
 
