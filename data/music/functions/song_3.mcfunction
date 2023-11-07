@@ -1,5 +1,5 @@
 # play song at player, with no decay volume
-playsound minecraft:music_disc.chirp music @s
+playsound minecraft:music_disc.chirp music @s ~ ~ ~ 300
 
 # print song name to chat
 tellraw @a "Song 3"
