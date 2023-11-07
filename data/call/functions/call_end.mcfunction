@@ -1,4 +1,4 @@
-execute as @s if score @s calling matches 1.. run function phone:clear_chat
+execute as @s if score @s calling matches 1.. run function misc:clear_chat
 execute as @s run scoreboard players reset @s calling
 execute as @s run scoreboard players set @s dialing 555
 tellraw @s {"text":"Call ended","color":"red"}
