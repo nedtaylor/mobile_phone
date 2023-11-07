@@ -1,0 +1,2 @@
+
+scoreboard objectives remove donut_recipe_intro
